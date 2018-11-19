@@ -48,3 +48,12 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+.moves-btn {
+  background: none;
+  border: none;
+}
+
+.moves-btn:hover {
+  text-decoration: underline;
+}
