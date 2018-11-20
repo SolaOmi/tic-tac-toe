@@ -121,11 +121,12 @@ class Game extends React.Component {
             squares={current.squares}
             onClick={ (i) => this.handleClick(i) }
           />
-
+          <br />
+          <button onClick={() => sortList()}>Sort moves</button>
         </div>
         <div className="game-info">
           <div>{status}</div>
-          <ol>{moves}</ol>
+          <ol id="moves-list">{moves}</ol>
         </div>
       </div>
     );
@@ -164,4 +165,9 @@ function getPosition(i) {
                      "(2, 1)", "(2, 2)", "(2, 3)",
                      "(3, 1)", "(3, 2)", "(3, 3)"];
   return positions[i];
+}
+
+function sortList() {
+  const list = document.getElementById('moves-list');
+  list.classList.toggle('reverse-list');
 }
