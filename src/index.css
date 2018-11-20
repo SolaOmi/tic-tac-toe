@@ -57,3 +57,7 @@ ol, ul {
 .moves-btn:hover {
   text-decoration: underline;
 }
+
+.bold {
+  font-weight: bold;
+}
