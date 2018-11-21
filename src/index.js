@@ -19,6 +19,7 @@ class Board extends React.Component {
     const winner = this.props.winner;
     return (
       <Square
+        key={"square" + i.toString()}
         value={this.props.squares[i]}
         isHighlighted={winner && winner.winningPositions.includes(i)}
         onClick={() => this.props.onClick(i)}
@@ -36,7 +37,9 @@ class Board extends React.Component {
         row.push(this.renderSquare(count));
         count++;
       }
-      board.push(<div className="board-row">{row}</div>)
+      board.push(
+        <div className="board-row" key={"row" + i.toString()}>{row}</div>
+      )
     }
 
     return board;
