@@ -10,7 +10,7 @@
 
 ~~5. When someone wins, highlight the three squares that caused the win.~~
 
-6. When no one wins, display a message about the result being a draw.
+~~6. When no one wins, display a message about the result being a draw.~~
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
