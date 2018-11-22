@@ -127,8 +127,8 @@ class Game extends React.Component {
     }
 
     return (
-      <div className="game">
-        <div className="game-board">
+      <div className="game display">
+        <div className="game-board margin-bottom">
           <Board
             squares={current.squares}
             winner={winner}
