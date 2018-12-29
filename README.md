@@ -1,6 +1,6 @@
 ## Synopsis
 
-Tic-tac-toe game built by going through the React official [tutorial](1https://reactjs.org/tutorial/tutorial.html), can be found [here](https://solaomi.github.io/tic-tac-toe/)!
+Tic-tac-toe game built by going through the React official [tutorial](https://reactjs.org/tutorial/tutorial.html), can be found [here](https://solaomi.github.io/tic-tac-toe/)!
 
 ## Todo
 
